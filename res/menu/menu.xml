@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+    <item
+        android:id="@+id/itemPrefs"
+        android:title="@string/prefsTitle"></item>
+
+    <item
+        android:id="@+id/itemServiceStart"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="@string/titleServiceStart"></item>
+
+    <item
+        android:id="@+id/itemServiceStop"
+        android:icon="@android:drawable/ic_media_pause"
+        android:title="@string/titleServiceStop"></item>
+    -->
+
+        <item
+            android:id="@+id/itemStatus"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/titleStatus"
+            android:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/itemTimeline"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/titleTimeline"></item>
+
+        <item android:id="@+id/itemFriendList" android:title="@string/friendlist" android:icon="@drawable/friend" android:showAsAction="ifRoom"></item><item android:id="@+id/itemMention" android:title="@string/mention" android:icon="@drawable/mention" android:showAsAction="ifRoom"></item><item android:id="@+id/itemMyProfile" android:title="@string/myprofile" android:icon="@drawable/my_profile"></item>
+        <!--  -->
+        
+        <item android:id="@+id/itemLogout" android:title="@string/logout"></item>
+        
+        
+        
+
+</menu>

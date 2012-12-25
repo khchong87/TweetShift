@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/friendviewMainList"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/imageviewfriendbackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutMainContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scaleType="centerInside" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5000"
+            android:paddingLeft="@dimen/BorderingPadding"
+            android:paddingRight="@dimen/BorderingPadding"
+            android:paddingTop="@dimen/TextViewPadding" >
+
+            <ImageView
+                android:id="@+id/imageViewFriendPicture"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:contentDescription="@string/profile_picture"
+                android:src="@drawable/stub" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="122dp"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/BorderingPadding" >
+
+                <TextView
+                    android:id="@+id/textViewFriendName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="@dimen/BorderingPadding" />
+
+                <TextView
+                    android:id="@+id/textViewScreenName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" >
+
+                        <TextView
+                            android:id="@+id/textViewFollowing"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:focusable="true"
+                            android:gravity="right"
+                            android:paddingBottom="@dimen/BorderingPadding"
+                            android:paddingRight="@dimen/BorderingPadding"
+                            android:paddingTop="@dimen/BorderingPadding" />
+
+                        <TextView
+                            android:id="@+id/textViewFollower"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="left"
+                            android:paddingBottom="@dimen/BorderingPadding"
+                            android:paddingLeft="@dimen/BorderingPadding"
+                            android:paddingTop="@dimen/BorderingPadding" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/textViewFollowStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:background="#2000"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:paddingLeft="@dimen/BorderingPadding"
+                    android:paddingRight="@dimen/TextViewPadding" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.bbs.tweetshift.CustomizedListView
+            android:id="@+id/listViewFriendStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7000"
+            android:paddingLeft="@dimen/BorderingPadding"
+            android:paddingRight="@dimen/BorderingPadding" />
+
+    </LinearLayout>
+
+</FrameLayout>

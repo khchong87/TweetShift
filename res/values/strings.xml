@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, StatusActivity!</string>
+    <string name="app_name">Shift Tweet</string>
+    <string name="title">Status Update</string>
+    <string name="hintText">Update your status here</string>
+    <string name="updateStatus">Update Status</string>
+    <string name="success">Success!</string>
+    <string name="usernameTitle">Username</string>
+    <string name="usernameSummary">ENter your username here</string>
+    <string name="passwordTitle">Password</string>
+    <string name="passwordSummary">enter password here</string>
+    <string name="apiRootTitle">Api Root</string>
+    <string name="apiRootSummary">Enter Api Root here</string>
+    <string name="prefsTitle">Preference</string>
+    <string name="titleServiceStart">Start Service</string>
+    <string name="titleServiceStop">Stop Service</string>
+    <string name="titleTimeline">Timeline</string>
+    <string name="msgSetupPrefs">Please Setup in Preference menu</string>
+    <string name="titlePurge">Purge</string>
+    <string name="titleStatus">Status</string>
+    <string name="msgAllDataPurged">All Stored Timeline has been cleared</string>
+    <string name="send_timeline_notifications_permission_label">Sending Timeline Notifications</string>
+    <string name="send_timeline_notifications_permission_description">Sending Timeline Notifications</string>
+    <string name="receive_timeline_notifications_permission_description">Receive Timeline Notifications</string>
+    <string name="receive_timeline_notifications_permission_label">Receive Timeline Notification</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="friend_name">Friend_Name_Here</string>
+    <string name="twitter_name">Twitter_Name</string>
+    <string name="twitter_following">Following</string>
+    <string name="twitter_follower">Followers</string>
+    <string name="friendlist">Friends</string>
+    <string name="send_friendlist_notification_permission_label">Send Friendlist notification</string>
+    <string name="send_friendlist_notifications_permission_description">Sending Friendlist Notifications</string>
+    <string name="receive_friendlist_notifications_permission_description">Receive Friendlist Notifications</string>
+    <string name="receive_friendlist_notifications_permission_label">Receive Friendlist Notification</string>
+    <color name="transparent">#6000</color>
+    <string name="follow">Follow</string>
+    <string name="following">Following</string>
+    <string name="followerlist">Followers</string>
+    <string name="logout">Logout</string>
+    <string name="logintext">Welcome to Shift Tweet! Before you start, please login with the button below</string>
+    <string name="myprofile">My Profile</string>
+    <string name="loading">Loading...</string>
+    <string name="pulltorefresh">Pull down to refresh</string>
+    <string name="mention">Mentions</string>
+    <string name="updateinterval">Update Interval</string>
+    <string name="updateinternaldesc">How often should Shift Tweet check for new mentions</string>
+    <string name="maxtweetchar">" / 140"</string>
+</resources>

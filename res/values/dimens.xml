@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TextViewPadding">15dp</dimen>
+    <dimen name="ImageViewHeight">100dp</dimen>
+    <dimen name="ImageViewWidth">60dp</dimen>
+    <dimen name="BorderingPadding">5dp</dimen>
+    <dimen name="ReplyViewPadding">30dp</dimen>
+</resources>

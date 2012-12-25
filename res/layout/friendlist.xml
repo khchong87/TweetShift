@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/friendlistMainList"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/row_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/BorderingPadding" >
+
+        <Button
+            android:id="@+id/buttonFriends"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:background="#6000"
+            android:paddingBottom="@dimen/TextViewPadding"
+            android:paddingTop="@dimen/TextViewPadding"
+            android:text="@string/friendlist" />
+
+        <Button
+            android:id="@+id/buttonFollowers"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:background="#6000"
+            android:paddingBottom="@dimen/TextViewPadding"
+            android:paddingTop="@dimen/TextViewPadding"
+            android:text="@string/followerlist" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewFriendList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6000"
+        android:paddingRight="@dimen/BorderingPadding" >
+
+    </ListView>
+
+</LinearLayout>

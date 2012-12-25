@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="false"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/BorderingPadding"
+    android:paddingRight="@dimen/BorderingPadding" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <!--
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="TextView" />
+        -->
+
+        <TextView
+            android:id="@+id/textUser"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+        <!--  -->
+
+        <TextView
+            android:id="@+id/textCreatedAt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="10 minutes ago" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingBottom="@dimen/TextViewPadding" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:adjustViewBounds="true"
+            android:gravity="left"
+            android:maxHeight="@dimen/ImageViewHeight"
+            android:maxWidth="@dimen/ImageViewWidth"
+            android:paddingBottom="@dimen/BorderingPadding"
+            android:paddingTop="@dimen/BorderingPadding"
+            android:scaleType="center"
+            android:src="@drawable/stub" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textTweetContent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autoLink="web"
+                android:gravity="left"
+                android:linksClickable="false"
+                android:paddingLeft="@dimen/TextViewPadding"
+                android:scrollbars="none"
+                android:text="Tweet Content"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textSource"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="bottom|right"
+                android:paddingLeft="@dimen/TextViewPadding"
+                android:text="via SomeApplication" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:background="@drawable/phasebeam"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="bottom"
+        android:paddingBottom="@dimen/TextViewPadding"
+        android:paddingLeft="@dimen/TextViewPadding"
+        android:paddingRight="@dimen/TextViewPadding"
+        android:paddingTop="@dimen/TextViewPadding"
+        android:text="@string/logintext"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/imageButtonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#0000"
+        android:contentDescription="Login"
+        android:paddingTop="@dimen/TextViewPadding"
+        android:src="@drawable/login_button" />
+
+</LinearLayout>
